@@ -21,6 +21,8 @@ def ne_satana(y, base):
         y //= base
     return result
 
-
-
-print(ne_satana(y, 24))
+z = 0
+for i in ne_satana(y, 24):
+    if i=="N":
+        z+=1
+print(z)
