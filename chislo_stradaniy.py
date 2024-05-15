@@ -23,6 +23,6 @@ def ne_satana(y, base):
 
 z = 0
 for i in ne_satana(y, 24):
-    if i=="N":
+    if i=="H":
         z+=1
 print(z)
